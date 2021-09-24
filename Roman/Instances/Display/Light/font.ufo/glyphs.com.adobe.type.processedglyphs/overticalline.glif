@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="overticalline" format="2">
+  <advance width="488"/>
+  <outline>
+    <contour>
+      <point x="244" y="-12" type="curve" name="hintSet0000"/>
+      <point x="344" y="-12"/>
+      <point x="442" y="68"/>
+      <point x="442" y="228" type="curve"/>
+      <point x="442" y="388"/>
+      <point x="344" y="461"/>
+      <point x="244" y="461" type="curve"/>
+      <point x="144" y="461"/>
+      <point x="47" y="382"/>
+      <point x="47" y="221" type="curve"/>
+      <point x="47" y="62"/>
+      <point x="144" y="-12"/>
+    </contour>
+    <contour>
+      <point x="244" y="4" type="curve"/>
+      <point x="159" y="4"/>
+      <point x="90" y="76"/>
+      <point x="90" y="221" type="curve"/>
+      <point x="90" y="367"/>
+      <point x="159" y="446"/>
+      <point x="244" y="446" type="curve"/>
+      <point x="329" y="446"/>
+      <point x="398" y="373"/>
+      <point x="398" y="228" type="curve"/>
+      <point x="398" y="82"/>
+      <point x="329" y="4"/>
+    </contour>
+    <contour>
+      <point x="232" y="538" type="line"/>
+      <point x="257" y="538" type="line"/>
+      <point x="262" y="724" type="line"/>
+      <point x="227" y="724" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -12 16</string>
+              <string>hstem 446 15</string>
+              <string>vstem 47 43</string>
+              <string>vstem 229.5 30</string>
+              <string>vstem 398 44</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>b495a4a917e8bb312dd7020a2ad999fd49db237e5073bfe188716908b9d1cc179d895be7b3f9c19e29e4ebb1334d8c23b0b48997aa56843dc82587f7a3911d19</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

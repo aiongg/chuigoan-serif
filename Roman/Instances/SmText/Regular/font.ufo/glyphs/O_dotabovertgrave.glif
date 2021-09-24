@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odotabovertgrave" format="2">
+  <advance width="750"/>
+  <outline>
+    <component base="Ograve"/>
+    <component base="dotabovertcmb.cap" xOffset="670" yOffset="-78"/>
+  </outline>
+</glyph>

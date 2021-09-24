@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotabovertverticalline" format="2">
+  <advance width="534"/>
+  <outline>
+    <component base="overticalline"/>
+    <component base="dotabovertcmb" xOffset="434" yOffset="-177"/>
+  </outline>
+</glyph>

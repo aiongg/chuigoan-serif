@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.sups.sc" format="2">
+  <advance width="468"/>
+  <outline>
+    <contour>
+      <point x="345" y="347" type="line" name="hintSet0000"/>
+      <point x="390" y="347" type="line"/>
+      <point x="391" y="685" type="line"/>
+      <point x="446" y="685" type="line"/>
+      <point x="446" y="713" type="line"/>
+      <point x="290" y="713" type="line"/>
+      <point x="290" y="685" type="line"/>
+      <point x="355" y="685" type="line"/>
+      <point x="355" y="550" type="line"/>
+      <point x="367" y="409" type="line"/>
+      <point x="361" y="409" type="line"/>
+      <point x="141" y="713" type="line"/>
+      <point x="30" y="713" type="line"/>
+      <point x="30" y="685" type="line"/>
+      <point x="85" y="685" type="line"/>
+      <point x="85" y="379" type="line" name="hintSet0015"/>
+      <point x="28" y="379" type="line"/>
+      <point x="28" y="352" type="line"/>
+      <point x="186" y="352" type="line"/>
+      <point x="186" y="379" type="line"/>
+      <point x="121" y="379" type="line"/>
+      <point x="121" y="518" type="line"/>
+      <point x="110" y="667" type="line"/>
+      <point x="113" y="667" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 347 62</string>
+              <string>hstem 685 28</string>
+              <string>vstem 85 36</string>
+              <string>vstem 355 35.5</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0015</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 352 27</string>
+              <string>hstem 685 28</string>
+              <string>vstem 85 36</string>
+              <string>vstem 355 35.5</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>3c25f798d22b8b75690ce915478bf966b6bda5b72681ddff0f25193e0b997f66fb3a184752c3514a84e4273a0ee29e120489c760a87143b9c36e32c73022672b</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

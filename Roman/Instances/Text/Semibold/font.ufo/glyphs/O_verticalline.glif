@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Overticalline" format="2">
+  <advance width="705"/>
+  <outline>
+    <component base="O"/>
+    <component base="verticallinecmb.cap" xOffset="353"/>
+  </outline>
+</glyph>

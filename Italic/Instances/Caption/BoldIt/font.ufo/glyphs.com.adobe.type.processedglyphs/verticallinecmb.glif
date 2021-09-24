@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallinecmb" format="2">
+  <unicode hex="030D"/>
+  <anchor x="70" y="534" name="_aboveLC"/>
+  <anchor x="124" y="788" name="aboveLC"/>
+  <outline>
+    <contour>
+      <point x="29" y="571" type="line" name="hintSet0000"/>
+      <point x="127" y="571" type="line"/>
+      <point x="187" y="773" type="line"/>
+      <point x="54" y="773" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 571 202</string>
+              <string>vstem 29 158</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>w0l29571l127571l187773l54773</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

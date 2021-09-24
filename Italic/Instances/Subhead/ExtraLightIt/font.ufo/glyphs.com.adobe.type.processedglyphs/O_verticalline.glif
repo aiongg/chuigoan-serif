@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Overticalline" format="2">
+  <advance width="645"/>
+  <outline>
+    <contour>
+      <point x="297" y="-13" type="curve" name="hintSet0000"/>
+      <point x="482" y="-13"/>
+      <point x="632" y="173"/>
+      <point x="632" y="420" type="curve"/>
+      <point x="632" y="579"/>
+      <point x="554" y="689"/>
+      <point x="400" y="689" type="curve"/>
+      <point x="218" y="689"/>
+      <point x="65" y="499"/>
+      <point x="65" y="257" type="curve"/>
+      <point x="65" y="97"/>
+      <point x="148" y="-13"/>
+    </contour>
+    <contour>
+      <point x="300" y="7" type="curve"/>
+      <point x="161" y="7"/>
+      <point x="96" y="116"/>
+      <point x="96" y="265" type="curve"/>
+      <point x="96" y="475"/>
+      <point x="226" y="669"/>
+      <point x="397" y="669" type="curve"/>
+      <point x="537" y="669"/>
+      <point x="601" y="564"/>
+      <point x="601" y="411" type="curve"/>
+      <point x="601" y="190"/>
+      <point x="468" y="7"/>
+    </contour>
+    <contour>
+      <point x="400" y="738" type="line"/>
+      <point x="419" y="738" type="line"/>
+      <point x="460" y="888" type="line"/>
+      <point x="430" y="888" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -13 20</string>
+              <string>hstem 669 20</string>
+              <string>vstem 65 31</string>
+              <string>vstem 601 31</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>1d36f12f2ccbb86e3b5d378bae4e1d52398ed41dd06e895d541531ee17787f9b87cd555b8a1f8afea6b786e983cb9b9a0c711f49853abefd5f7ef0a477e14288</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

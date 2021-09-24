@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="N.sups.sc" format="2">
+  <advance width="355"/>
+  <outline>
+    <contour>
+      <point x="268" y="343" type="line" name="hintSet0000"/>
+      <point x="305" y="343" type="line"/>
+      <point x="305" y="670" type="line"/>
+      <point x="341" y="675" type="line"/>
+      <point x="341" y="687" type="line"/>
+      <point x="240" y="687" type="line"/>
+      <point x="240" y="675" type="line"/>
+      <point x="287" y="670" type="line"/>
+      <point x="287" y="466" type="line"/>
+      <point x="134" y="687" type="line" name="hintSet0009"/>
+      <point x="13" y="687" type="line"/>
+      <point x="13" y="675" type="line"/>
+      <point x="40" y="672" type="line"/>
+      <point x="53" y="655" type="line"/>
+      <point x="53" y="360" type="line"/>
+      <point x="13" y="355" type="line"/>
+      <point x="13" y="343" type="line"/>
+      <point x="115" y="343" type="line"/>
+      <point x="115" y="355" type="line"/>
+      <point x="71" y="360" type="line"/>
+      <point x="71" y="628" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 343 14.5</string>
+              <string>hstem 672.5 14.5</string>
+              <string>vstem 53 18</string>
+              <string>vstem 287 18</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0009</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 343 14.5</string>
+              <string>hstem 673.5 13.5</string>
+              <string>vstem 53 18</string>
+              <string>vstem 287 18</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>e9f7b0f5fb2f7ce432369a7d55e16a11c26cea8357eaaf8d9ff34711c522ec4b0ab190dc66a2873ee71f9e94cd47f9527a6cb898e6aef335a3bea4a686481459</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

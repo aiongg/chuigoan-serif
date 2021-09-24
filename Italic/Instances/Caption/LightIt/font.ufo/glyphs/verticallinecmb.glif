@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="verticallinecmb" format="2">
+  <unicode hex="030D"/>
+  <anchor x="65" y="523" name="_aboveLC"/>
+  <anchor x="117" y="783" name="aboveLC"/>
+  <outline>
+    <contour>
+      <point x="57" y="579" type="line"/>
+      <point x="97" y="579" type="line"/>
+      <point x="142" y="773" type="line"/>
+      <point x="87" y="773" type="line"/>
+    </contour>
+  </outline>
+</glyph>

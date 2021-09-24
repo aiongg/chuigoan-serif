@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotabovertmacron" format="2">
+  <advance width="547"/>
+  <outline>
+    <component base="omacron"/>
+    <component base="dotabovertcmb" xOffset="487" yOffset="-177"/>
+  </outline>
+</glyph>

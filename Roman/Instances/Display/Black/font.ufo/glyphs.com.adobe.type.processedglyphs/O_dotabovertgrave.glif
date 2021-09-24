@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Odotabovertgrave" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="324" y="-16" type="curve" name="hintSet0000"/>
+      <point x="477" y="-16"/>
+      <point x="616" y="91"/>
+      <point x="616" y="326" type="curve"/>
+      <point x="616" y="561"/>
+      <point x="476" y="668"/>
+      <point x="324" y="668" type="curve"/>
+      <point x="172" y="668"/>
+      <point x="32" y="561"/>
+      <point x="32" y="326" type="curve"/>
+      <point x="32" y="91"/>
+      <point x="171" y="-16"/>
+    </contour>
+    <contour>
+      <point x="324" y="12" type="curve"/>
+      <point x="243" y="12"/>
+      <point x="212" y="132"/>
+      <point x="212" y="327" type="curve"/>
+      <point x="212" y="522"/>
+      <point x="243" y="640"/>
+      <point x="324" y="640" type="curve"/>
+      <point x="405" y="640"/>
+      <point x="436" y="522"/>
+      <point x="436" y="327" type="curve"/>
+      <point x="436" y="132"/>
+      <point x="405" y="12"/>
+    </contour>
+    <contour>
+      <point x="404" y="715" type="line"/>
+      <point x="378" y="744"/>
+      <point x="353" y="774"/>
+      <point x="297" y="828" type="curve"/>
+      <point x="267" y="857"/>
+      <point x="251" y="867"/>
+      <point x="228" y="867" type="curve"/>
+      <point x="195" y="867"/>
+      <point x="175" y="837"/>
+      <point x="175" y="811" type="curve"/>
+      <point x="175" y="791"/>
+      <point x="186" y="770"/>
+      <point x="231" y="751" type="curve"/>
+      <point x="271" y="734"/>
+      <point x="320" y="721"/>
+      <point x="391" y="694" type="curve"/>
+    </contour>
+    <contour>
+      <point x="632" y="631" type="curve" name="hintSet0016"/>
+      <point x="674" y="631"/>
+      <point x="709" y="662"/>
+      <point x="709" y="706" type="curve"/>
+      <point x="709" y="750"/>
+      <point x="674" y="781"/>
+      <point x="632" y="781" type="curve"/>
+      <point x="590" y="781"/>
+      <point x="555" y="750"/>
+      <point x="555" y="706" type="curve"/>
+      <point x="555" y="662"/>
+      <point x="590" y="631"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -16 28</string>
+              <string>hstem 640 28</string>
+              <string>vstem 32 180</string>
+              <string>vstem 436 180</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0016</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -16 28</string>
+              <string>hstem 631 150</string>
+              <string>vstem 32 180</string>
+              <string>vstem 555 154</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>f214790fd07f49aa507f9aca852b02f0404224cf8bba4344063d7e751a8c3d1754a2237030945cbb52048228e43f2d1cd82319cf8cbcf0faade7c6740119cfbf</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
