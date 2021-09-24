@@ -1,0 +1,522 @@
+:root {
+  --caption-size: 16px;
+  --smtext-size: 18px;
+  --text-size: 20px;
+  --subhead-size: 22px;
+  --display-size: 24px;
+}
+
+html {
+  font-size: 24pt;
+  line-height: 1.2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.label {
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 8pt;
+  line-height: 1rem;
+  font-variant: none;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.demo-par {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sc {
+  font-variant: all-small-caps;
+}
+
+#demo-input {
+  width: 100%;
+  min-width: 400px;
+  font-family: "Source Serif";
+  font-size: 18pt;
+  border-radius: 5px;
+  border-width: 0.25px;
+  padding: 5px;
+}
+
+.caption {
+  font-family: "SourceSerif4-Caption";
+  font-size: var(--caption-size);
+}
+.smtext {
+  font-family: "SourceSerif4-SmText";
+  font-size: var(--smtext-size);
+}
+.text {
+  font-family: "SourceSerif4";
+  font-size: var(--text-size);
+}
+.subhead {
+  font-family: "SourceSerif4-Subhead";
+  font-size: var(--subhead-size);
+}
+.display {
+  font-family: "SourceSerif4-Display";
+  font-size: var(--display-size);
+}
+
+.exlight {
+  font-weight: 100;
+}
+.light {
+  font-weight: 200;
+}
+.regular {
+  font-weight: 400;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.black {
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-ExtraLight.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-Light.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-Regular.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-Semibold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-Bold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-Black.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-ExtraLight.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-Light.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-Regular.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-Semibold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-Bold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-Black.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-ExtraLight.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-Light.ttf.woff2) format("woff2-variations");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-Regular.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-Semibold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-Bold.ttf.woff2) format("woff2-variations");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-Black.ttf.woff2) format("woff2-variations");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-ExtraLight.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-Light.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-Regular.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-Semibold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-Bold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-Black.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-ExtraLight.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-Light.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-Regular.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-Semibold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-Bold.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-Black.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-ExtraLightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-LightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-It.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-SemiBoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-BoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Caption";
+  src: url(../WOFF2/TTF/SourceSerif4Caption-BlackIt.ttf.woff2)
+    format("woff2-variations"-SmText);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-ExtraLightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-LightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-It.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-SemiBoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-SmText";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-BoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4SmText-BlackIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-ExtraLightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-LightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-It.ttf.woff2) format("woff2-variations");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-SemiBoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-BoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/TTF/SourceSerif4-BlackIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-ExtraLightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-LightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-It.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-SemiBoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-BoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Subhead";
+  src: url(../WOFF2/TTF/SourceSerif4Subhead-BlackIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-ExtraLightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-LightIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-It.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-SemiBoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-BoldIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SourceSerif4-Display";
+  src: url(../WOFF2/TTF/SourceSerif4Display-BlackIt.ttf.woff2)
+    format("woff2-variations");
+  font-weight: 900;
+  font-style: italic;
+}

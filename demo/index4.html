@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      @font-face {
+        font-family: "SourceSerif4";
+        src: url(../WOFF2/VAR/SourceSerif4Variable-Roman.ttf.woff2) format("woff2-variations");
+        font-style: normal;
+        font-weight: 100 900;
+      }
+
+      /* 
+	Weight axis: 100 – 700
+	Width axis: 85 – 100
+*/
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "SourceSerif4";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 100vh;
+        background-color: #dcedc8;
+      }
+
+      h1 {
+        font-weight: 100;
+        font-size: 10vw;
+        line-height: 10vw;
+        font-variation-settings: "wght" 100, "wdth" 85;
+      }
+
+      h1 .char {
+        --delay: calc((var(--char-index) + 1) * 400ms);
+        animation: breathe 4000ms infinite both;
+        animation-delay: var(--delay);
+      }
+
+      h1:hover span {
+        animation-play-state: paused;
+      }
+
+      @keyframes breathe {
+        0% {
+          font-variation-settings: "wght" 100, "opsz" 8;
+          font-size: 6vw;
+        }
+        60% {
+          font-variation-settings: "wght" 900, "opsz" 60;
+          font-size: 10vw;
+        }
+
+        100% {
+          font-variation-settings: "wght" 100, "opsz" 8;
+          font-size: 6vw;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span class="char" style="--char-index:0;">P</span></h1>
+    <h1><span class="char" style="--char-index:1;">e̍</span></h1>
+    <h1><span class="char" style="--char-index:2;">h</span></h1>
+    <h1><span class="char" style="--char-index:3;">ō</span></h1>
+    <h1><span class="char" style="--char-index:4;">e</span></h1>
+    <h1><span class="char" style="--char-index:5;">j</span></h1>
+    <h1><span class="char" style="--char-index:6;">ī</span></h1>
+    <h1><span class="char" style="--char-index:7;">&nbsp;</span></h1>
+    <h1><span class="char" style="--char-index:8;">c</span></h1>
+    <h1><span class="char" style="--char-index:9;">h</span></h1>
+    <h1><span class="char" style="--char-index:10;">á</span></h1>
+    <h1><span class="char" style="--char-index:11;">n</span></h1>
+    <h1><span class="char" style="--char-index:12;">&nbsp;</span></h1>
+    <h1><span class="char" style="--char-index:13;">ŏ͘</span></h1>
+    <h1><span class="char" style="--char-index:14;">!</span></h1>
+  </body>
+</html>

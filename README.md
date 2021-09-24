@@ -1,3 +1,11 @@
+# Pe̍h-ōe-jī
+
+Source Serif chit ê pán-pún ū só͘ ū Tâi-oân Lô-má-jī ê jī bó, tiâu-hō ûn ûn. Nā beh iōng, chhiáⁿ ti̍t-chiap kā chit ê BRANCH khiām ·lòe, lāi-té ū OTF (ìn-soat sú-iōng), TTF (tiān-náu APP sú-iōng), kap WOFF/WOFF2/VAR (bāng-chām sú-iōng) ê pán-pún.
+
+This version of Source Serif has all the glyphs needed to fully support Taiwanese Lomaji. For developer information, please see the `poj` branch and the original repo (see below).
+
+Ló͘-la̍t!
+
 # Source Serif
 
 [Source Serif](https://adobe-fonts.github.io/source-serif/) is an open-source typeface to complement the [Source Sans](https://github.com/adobe-fonts/source-sans-pro) family.

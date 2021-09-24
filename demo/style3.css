@@ -1,0 +1,134 @@
+/* Load the variable font */
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/VAR/SourceSerif4Variable-Roman.ttf.woff2)
+    format("woff2-variations");
+  font-style: normal;
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: "SourceSerif4";
+  src: url(../WOFF2/VAR/SourceSerif4Variable-Italic.ttf.woff2)
+    format("woff2-variations");
+  font-style: italic;
+  font-weight: 100 900;
+}
+
+:root {
+  --text-size: 48;
+  --text-weight: 400;
+  --text-opsz: 20;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  font-family: "SourceSerif4", "Roboto", sans-serif;
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+.demo-text {
+  font-size: calc(var(--text-size) * 1px);
+  font-style: normal;
+  font-variation-settings: "wght" var(--text-weight), "opsz" var(--text-opsz);
+  margin: 0;
+}
+
+.controls {
+  margin-top: 3rem;
+}
+
+.slider-container:not(:first-child) {
+  margin-top: 3rem;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.slider-label {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variation-settings: "slnt" var(--text-slant);
+  font-weight: 650;
+}
+
+.output {
+  font-style: normal;
+  font-variation-settings: "slnt" var(--text-slant);
+  font-weight: 400;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 1rem;
+  border-radius: 0.25rem;
+  background: #dee7ec;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #456bd9;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background: #456bd9;
+  cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb:active {
+  cursor: -webkit-grabbing;
+}
+
+.slider::-moz-range-thumb:active {
+  cursor: -moz-grabbing;
+}
+
+.button {
+  background: #fff;
+  border: 3px solid #dee7ec;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 400;
+  opacity: 1;
+  padding: 0.25rem 0.75rem;
+  transition: background ease-in 0.2s;
+}
+
+.button:hover,
+.button:focus {
+  background: #eaf0f3;
+}
+
+.italic {
+  font-style: italic;
+}
