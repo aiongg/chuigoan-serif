@@ -5,7 +5,7 @@
 
 }
 body {
-    font-family: "Source Serif VF", "Source Serif", sans;
+    font-family: "Chuigoan Serif VF", "Chuigoan Serif", sans;
     overflow-x: hidden;
     font-feature-settings: "kern" 1, "liga" 1;
     font-optical-sizing: auto;
@@ -24,7 +24,7 @@ a {
 h1 {
     /*page title*/
     margin: 0;
-    font-family: "Source Serif VF", "Source Serif Display";
+    font-family: "Chuigoan Serif VF", "Chuigoan Serif Display";
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -34,7 +34,7 @@ h1 {
 h2 {
     /*weight names in small caps*/
     margin: 0;
-    font-family: "Source Serif VF", "Source Serif SmText";
+    font-family: "Chuigoan Serif VF", "Chuigoan Serif SmText";
     font-weight: 400;
     /*font-variation-settings: "opsz" 8;*/
     font-feature-settings: "c2sc" 1, "smcp" 1;
