@@ -1,3 +1,59 @@
+# POJ Modifications
+
+To fully support Pe̍h-ōe-jī, horizontal advance after any letters containing the glyph `uni0358` (dot above right, called`dotabovert` in this script) must be extended. Contextual kerning does not seem to work in the browser, so we have added separate precomposed characters for all possibilities. We have also added `uni030D` (`verticallinecmb`), plus a precomposed `o + 030D + 0358` to ensure correct horizontal advance for this letter. Finally, we added the `N.sups.sc` glyph to support proper small caps in Pe̍h-ōe-jī. The total set of new glyphs is:
+
+```
+# Roman & Italic
+uni030D verticallinecmb
+uni030D.cap verticallinecmb.cap
+uni0358 dotabovertcmb
+uni0358.cap dotabovertcmb.cap
+uni004F030D Overticalline
+uni004F0358 Odotabovert
+uni00D20358 Odotabovertgrave
+uni00D30358 Odotabovertacute
+uni00D40358 Odotabovertcircumflex
+uni014C0358 Odotabovertmacron
+uni014E0358 Odotabovertbreve
+uni01D10358 Odotabovertcaron
+uni006F030D overticalline
+uni006F0358 odotabovert
+uni00F20358 odotabovertgrave
+uni00F30358 odotabovertacute
+uni00F40358 odotabovertcircumflex
+uni014D0358 odotabovertmacron
+uni014F0358 odotabovertbreve
+uni01D20358 odotabovertcaron
+uni006F030D0358 odotabovertverticalline
+
+# Roman only
+uni004F030D.sc Overticalline.sc
+uni004F0358.sc Odotabovert.sc
+uni00D20358.sc Odotabovertgrave.sc
+uni00D30358.sc Odotabovertacute.sc
+uni00D40358.sc Odotabovertcircumflex.sc
+uni014C0358.sc Odotabovertmacron.sc
+uni014E0358.sc Odotabovertbreve.sc
+uni01D10358.sc Odotabovertcaron.sc
+uni004F030D0358.sc Odotabovertverticalline.sc
+N.sups.sc   N.sups.sc
+```
+
+We also added `N.sups.sc` glyphs for each Roman font into a folder at the top level, because `fontforge` seems to be broken at the moment (see note in the script).
+
+The main script is `build-poj.py`, which adds the above glyphs to every file (Roman & Italic, Instances & Masters). The only manual labor is deciding the position of the `dotabovert` component for each font, the data are marked in the `ODotOffsets` table of the script.
+
+We added a script to run `checkoutlinesufo` and `psautohint` on each font before building. So the full build command is now:
+
+```
+python build-poj.py
+./build-checkoutlines.sh
+./build.sh
+./buildVFs.sh
+./build-woffs.sh
+```
+
+
 # Source Serif
 
 [Source Serif](https://adobe-fonts.github.io/source-serif/) is an open-source typeface to complement the [Source Sans](https://github.com/adobe-fonts/source-sans-pro) family.

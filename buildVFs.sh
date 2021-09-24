@@ -31,14 +31,16 @@ function build_var_font {
 	sfntedit -a CFF2=$1/.tb_cff2 $1/$2.otf
 
 	# comment out STAT feature file which cannot be digested by fontmake
-	sed -i '' 's/^/#/' $1/../STAT.fea
+	# on mac: sed -i '' 's/^/#/' $1/../STAT.fea
+	sed -i 's/^/#/' $1/../STAT.fea
 	# build variable TTF with fontmake. Use set +e so we can un-hack the
 	# STAT.fea before exiting.
 	set +e
 	fontmake -m $1/$2.designspace -o variable --production-names --output-path $1/$2.ttf --feature-writer None
 	fm_status=$?
 	# undo changes to STAT feature file
-	sed -i '' 's/#//' $1/../STAT.fea
+	# on mac: sed -i '' 's/#//' $1/../STAT.fea
+	sed -i 's/#//' $1/../STAT.fea
 	if [ $fm_status -ne 0 ]
 	then
 		exit $fm_status

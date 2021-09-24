@@ -680,7 +680,7 @@ feature ccmp {
         sub Ocaron dotabovertcmb by Odotabovertcaron;
         sub Overticalline dotabovertcmb by Odotabovertverticalline;
 
-        sub O.sc verticallinecmb.cap by Overticalline.sc;
+        sub O.sc verticallinecmb by Overticalline.sc;
         sub O.sc dotabovertcmb by Odotabovert.sc;
         sub O.sc gravecmb dotabovertcmb by Odotabovertgrave.sc;
         sub O.sc acutecmb dotabovertcmb by Odotabovertacute.sc;
@@ -688,7 +688,7 @@ feature ccmp {
         sub O.sc macroncmb dotabovertcmb by Odotabovertmacron.sc;
         sub O.sc brevecmb dotabovertcmb by Odotabovertbreve.sc;
         sub O.sc caroncmb dotabovertcmb by Odotabovertcaron.sc;
-        sub O.sc verticallinecmb.cap dotabovertcmb by Odotabovertverticalline.sc;
+        sub O.sc verticallinecmb dotabovertcmb by Odotabovertverticalline.sc;
         sub O.sc dotabovertcmb gravecmb by Odotabovertgrave.sc;
         sub O.sc dotabovertcmb acutecmb by Odotabovertacute.sc;
         sub O.sc dotabovertcmb circumflexcmb by Odotabovertcircumflex.sc;

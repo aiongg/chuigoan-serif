@@ -208,7 +208,7 @@ class POJBuilder:
         self.weightKey = weight
         self.master = master
 
-        if slant == ITA:
+        if slant == ITA and not master:
             if weight == RG:
                 weight = 'It'
             else:
@@ -217,17 +217,21 @@ class POJBuilder:
         self.slant = slant
         self.size = size
         self.weight = weight
+        print(f'Loading {self.slant}/{self.size}/{self.weight}...', end=' ', flush=True)
 
         if self.master:
             x = '' if size == 'text' else size[0]
             y = weight[-1]
-            self.ufoFile = f'{slant}/Masters/{size}/{weight}/SourceSerif_{x}{y}.ufo'
+            name = 'SourceSerif' if self.slant == ROM else 'SourceSerif-Italic'
+            self.ufoFile = f'{slant}/Masters/{size}/{weight}/{name}_{x}{y}.ufo'
         else:
             self.ufoFile = f'{slant}/Instances/{size}/{weight}/font.ufo'
         self.ufo = ufoLib.UFOWriter(self.ufoFile)
         self.glyphSet = self.ufo.getGlyphSet()
 
     def build(self):
+        print('building...', end=' ', flush=True)
+
         self.addGlyphs()
         self.build_verticalline()
         self.build_dotabovert()
@@ -236,6 +240,8 @@ class POJBuilder:
         if self.slant == ROM:
             self.build_N_sups_sc()
         self.save_lib_plist()
+
+        print('done!')
     
     def save_lib_plist(self):
         lib_plist = self.ufo.readLib()
@@ -494,7 +500,7 @@ def buildInstances():
 def buildMasters():
     for size in [ 'caption', 'text', 'display' ]:
         for weight in [ 'master_0', 'master_1', 'master_2' ]:
-            builder = POJBuilder(ROM, size, weight, master=True)
+            builder = POJBuilder(ITA, size, weight, master=True)
             builder.build()
 
 buildInstances()
