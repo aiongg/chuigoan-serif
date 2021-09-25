@@ -21,7 +21,7 @@ function build_var_font {
 	# build variable OTF
 	# --mkot gs is for using the makeotf option -gs, which omits glyphs not in the GOADB
 	buildmasterotfs --mkot gs -d $1/$2.designspace
-	buildcff2vf --omit-mac-names -d $1/$2.designspace
+	buildcff2vf --omit-mac-names -k -d $1/$2.designspace
 
 	# extract and subroutinize the CFF2 table
 	echo 'Subroutinizing' $2.otf
@@ -47,12 +47,12 @@ function build_var_font {
 	fi
 	set -e
 	# use DSIG, name, OS/2, hhea, post, and STAT tables from OTFs
-	sfntedit -x DSIG=$1/.tb_DSIG,name=$1/.tb_name,OS/2=$1/.tb_os2,hhea=$1/.tb_hhea,post=$1/.tb_post,STAT=$1/.tb_STAT,fvar=$1/.tb_fvar $1/$2.otf
-	sfntedit -a DSIG=$1/.tb_DSIG,name=$1/.tb_name,OS/2=$1/.tb_os2,hhea=$1/.tb_hhea,post=$1/.tb_post,STAT=$1/.tb_STAT,fvar=$1/.tb_fvar $1/$2.ttf
+	sfntedit -x DSIG=$1/.tb_DSIG,name=$1/.tb_name,OS/2=$1/.tb_os2,STAT=$1/.tb_STAT,fvar=$1/.tb_fvar $1/$2.otf
+	sfntedit -a DSIG=$1/.tb_DSIG,name=$1/.tb_name,OS/2=$1/.tb_os2,STAT=$1/.tb_STAT,fvar=$1/.tb_fvar $1/$2.ttf
 
 	# use cmap, GDEF, GPOS, and GSUB tables from TTFs
-	sfntedit -x cmap=$1/.tb_cmap,GDEF=$1/.tb_GDEF,GPOS=$1/.tb_GPOS,GSUB=$1/.tb_GSUB $1/$2.ttf
-	sfntedit -a cmap=$1/.tb_cmap,GDEF=$1/.tb_GDEF,GPOS=$1/.tb_GPOS,GSUB=$1/.tb_GSUB $1/$2.otf
+	# sfntedit -x cmap=$1/.tb_cmap,GDEF=$1/.tb_GDEF,GPOS=$1/.tb_GPOS,GSUB=$1/.tb_GSUB $1/$2.ttf
+	# sfntedit -a cmap=$1/.tb_cmap,GDEF=$1/.tb_GDEF,GPOS=$1/.tb_GPOS,GSUB=$1/.tb_GSUB $1/$2.otf
 
     # move font files to target directory
     mv $1/$2.otf $var_dir

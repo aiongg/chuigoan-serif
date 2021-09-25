@@ -118,14 +118,14 @@ ODotOffsets = {
     ROM: {
         CAP: {
             EL: { UC: (offset(694, -84), 768), LC: (offset(564, -94), 608), SC: (offset(629, -198), 695) },
-            LT: { UC: (offset(694, -81), 768), LC: (offset(559, -91), 608), SC: (offset(635, -198), 695) },
-            RG: { UC: (offset(688, -78), 768), LC: (offset(570, -88), 640), SC: (offset(636, -184), 708) },
-            SB: { UC: (offset(692, -75), 779), LC: (offset(592, -85), 686), SC: (offset(660, -182), 753) },
+            LT: { UC: (offset(694, -81), 768), LC: (offset(564, -91), 608), SC: (offset(635, -198), 695) },
+            RG: { UC: (offset(694, -78), 768), LC: (offset(570, -88), 640), SC: (offset(636, -184), 708) },
+            SB: { UC: (offset(694, -75), 779), LC: (offset(592, -85), 686), SC: (offset(660, -182), 753) },
             BO: { UC: (offset(723, -72), 833), LC: (offset(623, -82), 742), SC: (offset(676, -180), 760) },
             BK: { UC: (offset(736, -70), 828), LC: (offset(650, -80), 768), SC: (offset(726, -180), 811) },
         },
         SMT: {
-            EL: { UC: (offset(682, -84), 727), LC: (offset(522, -94), 561), SC: (offset(607, -198), 671) },
+            EL: { UC: (offset(668, -84), 727), LC: (offset(522, -94), 561), SC: (offset(607, -198), 671) },
             LT: { UC: (offset(668, -81), 744), LC: (offset(537, -91), 597), SC: (offset(620, -198), 681) },
             RG: { UC: (offset(670, -78), 750), LC: (offset(560, -88), 628), SC: (offset(636, -184), 708) },
             SB: { UC: (offset(692, -75), 779), LC: (offset(592, -85), 686), SC: (offset(660, -182), 753) },
