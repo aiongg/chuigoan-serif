@@ -43,16 +43,16 @@ We also added `N.sups.sc` glyphs for each Roman font into a folder at the top le
 
 The main script is `build-poj.py`, which adds the above glyphs to every file (Roman & Italic, Instances & Masters). The only manual labor is deciding the position of the `dotabovert` component for each font, the data are marked in the `ODotOffsets` table of the script.
 
-We added a script to run `checkoutlinesufo` and `psautohint` on each font before building. So the full build command is now:
+We added a script to run `checkoutlinesufo` and `psautohint` on each font before building. We also have to rename the fonts from `Source` to `Chuigoan`. So the full build command is now:
 
 ```
 python build-poj.py
 ./build-checkoutlines.sh
 ./build.sh
 ./buildVFs.sh
+python rename.py
 ./build-woffs.sh
 ```
-
 
 # Source Serif
 
