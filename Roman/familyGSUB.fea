@@ -849,6 +849,7 @@ feature case { # case-sensitive forms
     sub @CASE_SOURCE by @CASE_TARGET;
     sub @FIG_LINING_TAB by @FIG_CASE;
     sub anoteleia by anoteleia.cap;
+    sub n.sups by N.sups;
 } case;
 
 

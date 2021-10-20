@@ -201,25 +201,25 @@ lookup MARK_BASE_base {
 
 
 lookup MARK_BASE_below {
-	@bGC_D_below = [ D C.sc U.sc Uhorn.sc ];
+	@bGC_D_below = [ D C.sc U.sc Uhorn.sc Uacute.sc Ugrave.sc Ucircumflex.sc Ucaron.sc Umacron.sc Ubreve.sc ];
 	@bGC_H_below = [ H K M M.sc ];
 	@bGC_L_below = [ L Lcaron ];
-	@bGC_O_below = [ O Ohorn ];
+	@bGC_O_below = [ O Ohorn Oacute Ograve Ocircumflex Ocaron Omacron Obreve ];
 	@bGC_P_below = [ P P.sc ];
 	@bGC_T_below = [ T alphalatin ];
-	@bGC_U_below = [ U Uhorn ];
+	@bGC_U_below = [ U Uhorn Uacute Ugrave Ucircumflex Ucaron Umacron Ubreve ];
 	@bGC_X_below = [ X v ];
 	@bGC_a_below = [ a schwa ];
 	@bGC_c_below = [ c X.sc ];
 	@bGC_d_below = [ d dcaron ];
 	@bGC_g_below = [ g gcommaaccent ];
 	@bGC_j_below = [ j dotlessj ];
-	@bGC_k_below = [ k u uhorn ];
+	@bGC_k_below = [ k u uhorn uacute ugrave ucircumflex ucaron umacron ubreve ];
 	@bGC_l_below = [ l lcaron ];
-	@bGC_o_below = [ o ohorn D.sc ];
+	@bGC_o_below = [ o ohorn oacute ograve ocircumflex ocaron omacron obreve D.sc ];
 	@bGC_t_below = [ t tcaron ];
 	@bGC_dotlessi_below = [ dotlessi eta ];
-	@bGC_alpha_below = [ alpha O.sc Ohorn.sc ];
+	@bGC_alpha_below = [ alpha O.sc Ohorn.sc Oacute.sc Ograve.sc Ocircumflex.sc Ocaron.sc Omacron.sc Obreve.sc ];
 	@bGC_H.sc_below = [ H.sc K.sc R.sc ];
 	@bGC_L.sc_below = [ L.sc Lcaron.sc ];
 	pos base @bGC_D_below <anchor 308 -20> mark @MC_below;

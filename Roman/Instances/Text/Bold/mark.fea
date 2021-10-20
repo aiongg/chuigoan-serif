@@ -212,12 +212,12 @@ lookup MARK_BASE_below {
 	@bGC_B_below = [ B V ];
 	@bGC_K_below = [ K ae ];
 	@bGC_L_below = [ L Lcaron ];
-	@bGC_O_below = [ O Ohorn ];
+	@bGC_O_below = [ O Ohorn Oacute Ograve Ocircumflex Ocaron Omacron Obreve ];
 	@bGC_P_below = [ P F.sc ];
 	@bGC_S_below = [ S x epsilon ];
-	@bGC_U_below = [ U Uhorn ];
-	@bGC_X_below = [ X c e o ohorn ];
-	@bGC_Y_below = [ Y u uhorn ];
+	@bGC_U_below = [ U Uhorn Uacute Ugrave Ucircumflex Ucaron Umacron Ubreve ];
+	@bGC_X_below = [ X c e o ohorn oacute ograve ocircumflex ocaron omacron obreve ];
+	@bGC_Y_below = [ Y u uhorn uacute ugrave ucircumflex ucaron umacron ubreve ];
 	@bGC_d_below = [ d E.sc ];
 	@bGC_g_below = [ g gcommaaccent ];
 	@bGC_j_below = [ j dotlessj ];
@@ -230,8 +230,8 @@ lookup MARK_BASE_below {
 	@bGC_A.sc_below = [ A.sc Z.sc ];
 	@bGC_K.sc_below = [ K.sc R.sc ];
 	@bGC_L.sc_below = [ L.sc Lcaron.sc ];
-	@bGC_O.sc_below = [ O.sc Ohorn.sc ];
-	@bGC_U.sc_below = [ U.sc Uhorn.sc ];
+	@bGC_O.sc_below = [ O.sc Ohorn.sc Oacute.sc Ograve.sc Ocircumflex.sc Ocaron.sc Omacron.sc Obreve.sc ];
+	@bGC_U.sc_below = [ U.sc Uhorn.sc Uacute.sc Ugrave.sc Ucircumflex.sc Ucaron.sc Umacron.sc Ubreve.sc ];
 	pos base @bGC_B_below <anchor 335 -20> mark @MC_below;
 	pos base @bGC_K_below <anchor 370 -20> mark @MC_below;
 	pos base @bGC_L_below <anchor 305 -20> mark @MC_below;

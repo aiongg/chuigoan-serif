@@ -145,8 +145,8 @@ lookup MARK_BASE_base {
 lookup MARK_BASE_below {
 	@bGC_C_below = [ C H ];
 	@bGC_L_below = [ L Lcaron ];
-	@bGC_O_below = [ O Ohorn ];
-	@bGC_U_below = [ U Uhorn ];
+	@bGC_O_below = [ O Ohorn Oacute Ograve Ocircumflex Ocaron Omacron Obreve ];
+	@bGC_U_below = [ U Uhorn Uacute Ugrave Ucircumflex Ucaron Umacron Ubreve ];
 	@bGC_V_below = [ V n ];
 	@bGC_a_below = [ a alphalatin ];
 	@bGC_d_below = [ d dcaron ];
@@ -154,9 +154,9 @@ lookup MARK_BASE_below {
 	@bGC_i_below = [ i dotlessi ];
 	@bGC_j_below = [ j dotlessj ];
 	@bGC_l_below = [ l lcaron ];
-	@bGC_o_below = [ o ohorn ];
+	@bGC_o_below = [ o ohorn oacute ograve ocircumflex ocaron omacron obreve ];
 	@bGC_t_below = [ t tcaron ];
-	@bGC_u_below = [ u uhorn ];
+	@bGC_u_below = [ u uhorn uacute ugrave ucircumflex ucaron umacron ubreve ];
 	@bGC_z_below = [ z epsilon ];
 	@bGC_thorn_below = [ thorn omega ];
 	pos base @bGC_C_below <anchor 326 -20> mark @MC_below;
