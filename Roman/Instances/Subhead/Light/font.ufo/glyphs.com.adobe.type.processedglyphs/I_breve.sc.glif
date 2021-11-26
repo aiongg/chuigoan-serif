@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ibreve.sc" format="2">
+  <advance width="343"/>
+  <outline>
+    <contour>
+      <point x="61" y="0" type="line" name="hintSet0000"/>
+      <point x="281" y="0" type="line"/>
+      <point x="281" y="22" type="line"/>
+      <point x="197" y="29" type="line"/>
+      <point x="196" y="101"/>
+      <point x="196" y="180"/>
+      <point x="196" y="256" type="curve"/>
+      <point x="196" y="296" type="line"/>
+      <point x="196" y="372"/>
+      <point x="196" y="449"/>
+      <point x="197" y="521" type="curve"/>
+      <point x="281" y="528" type="line"/>
+      <point x="281" y="549" type="line"/>
+      <point x="61" y="549" type="line"/>
+      <point x="61" y="528" type="line"/>
+      <point x="145" y="521" type="line"/>
+      <point x="147" y="449"/>
+      <point x="147" y="371"/>
+      <point x="147" y="296" type="curve"/>
+      <point x="147" y="256" type="line"/>
+      <point x="147" y="179"/>
+      <point x="147" y="100"/>
+      <point x="145" y="29" type="curve"/>
+      <point x="61" y="22" type="line"/>
+    </contour>
+    <contour>
+      <point x="36" y="730" type="line"/>
+      <point x="47" y="672"/>
+      <point x="90" y="611"/>
+      <point x="172" y="611" type="curve"/>
+      <point x="254" y="611"/>
+      <point x="297" y="672"/>
+      <point x="308" y="730" type="curve"/>
+      <point x="290" y="736" type="line"/>
+      <point x="272" y="683"/>
+      <point x="234" y="648"/>
+      <point x="172" y="648" type="curve"/>
+      <point x="110" y="648"/>
+      <point x="72" y="683"/>
+      <point x="54" y="736" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 25.5</string>
+              <string>hstem 524.5 24.5</string>
+              <string>hstem 611 37</string>
+              <string>vstem 147 49</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>a472f0e3085b9125ed34291453310bed25a200a40dfa24f6e8eb614d3ba15030786315739c7d0d7d6d32c40af89600c6a4dff32e4104861964b08545b0365e12</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

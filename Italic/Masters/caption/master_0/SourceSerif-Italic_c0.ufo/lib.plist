@@ -1160,6 +1160,12 @@
       <string>odotabovertcaron</string>
       <string>Odotabovertcaron.sc</string>
       <string>N.sups.sc</string>
+      <string>Ibreve</string>
+      <string>ibreve</string>
+      <string>Ibreve.sc</string>
+      <string>Udieresisbelow</string>
+      <string>udieresisbelow</string>
+      <string>Udieresisbelow.sc</string>
     </array>
     <key>public.postscriptNames</key>
     <dict>
@@ -1279,6 +1285,10 @@
       <string>uni1E2A</string>
       <key>Hdotbelow</key>
       <string>uni1E24</string>
+      <key>Ibreve</key>
+      <string>Ibreve</string>
+      <key>Ibreve.sc</key>
+      <string>Ibreve.sc</string>
       <key>Icaron</key>
       <string>uni01CF</string>
       <key>Icyr</key>
@@ -1477,6 +1487,10 @@
       <string>uni0423</string>
       <key>Udieresisacute</key>
       <string>uni01D7</string>
+      <key>Udieresisbelow</key>
+      <string>Udieresisbelow</string>
+      <key>Udieresisbelow.sc</key>
+      <string>Udieresisbelow.sc</string>
       <key>Udieresiscaron</key>
       <string>uni01D9</string>
       <key>Udieresisgrave</key>
@@ -1807,6 +1821,8 @@
       <string>uni20B4</string>
       <key>hungarumlautcmb</key>
       <string>uni030B</string>
+      <key>ibreve</key>
+      <string>ibreve</string>
       <key>icaron</key>
       <string>uni01D0</string>
       <key>icyr</key>
@@ -2073,6 +2089,8 @@
       <string>uni0443</string>
       <key>udieresisacute</key>
       <string>uni01D8</string>
+      <key>udieresisbelow</key>
+      <string>udieresisbelow</string>
       <key>udieresiscaron</key>
       <string>uni01DA</string>
       <key>udieresisgrave</key>

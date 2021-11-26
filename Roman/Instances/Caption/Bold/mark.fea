@@ -13,7 +13,7 @@ markClass tildecmb.cap <anchor 1 677> @MC_above;
 
 lookup MARK_BASE_above {
 	@bGC_A_above = [ A Acyr ];
-	@bGC_C_above = [ C U Uhorn Es ];
+	@bGC_C_above = [ C U Udieresisbelow Uhorn Es ];
 	@bGC_E_above = [ E F Ie ];
 	@bGC_I_above = [ I Iukran ];
 	@bGC_L_above = [ L Lcaron ];
@@ -33,7 +33,7 @@ lookup MARK_BASE_above {
 	@bGC_q_above = [ q tse ];
 	@bGC_s_above = [ s digamma ];
 	@bGC_t_above = [ t tcaron ];
-	@bGC_u_above = [ u x uogonek uhorn icyr.bgr tse.bgr ];
+	@bGC_u_above = [ u udieresisbelow x uogonek uhorn icyr.bgr tse.bgr ];
 	@bGC_y_above = [ y ucyr ];
 	@bGC_Icyr_above = [ Icyr Icyr.bgr ];
 	@bGC_che_above = [ che che.bgr ];
@@ -47,7 +47,7 @@ lookup MARK_BASE_above {
 	@bGC_L.sc_above = [ L.sc Lcaron.sc ];
 	@bGC_O.sc_above = [ O.sc Q.sc Ohorn.sc Oslash.sc Ka.sc Ocyr.sc Fita.sc Obarcyr.sc ];
 	@bGC_P.sc_above = [ P.sc Er.sc ];
-	@bGC_U.sc_above = [ U.sc Uogonek.sc Uhorn.sc ];
+	@bGC_U.sc_above = [ U.sc Udieresisbelow.sc Uogonek.sc Uhorn.sc ];
 	@bGC_Y.sc_above = [ Y.sc Ustraight.sc Ustraightstroke.sc ];
 	@bGC_Icyr.sc_above = [ Icyr.sc Icyr.scbgr ];
 	pos base @bGC_A_above <anchor 368 677> mark @MC_above;

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ibreve.sc" format="2">
+  <advance width="402"/>
+  <outline>
+    <contour>
+      <point x="34" y="0" type="line" name="hintSet0000"/>
+      <point x="369" y="0" type="line"/>
+      <point x="369" y="73" type="line"/>
+      <point x="302" y="73" type="line"/>
+      <point x="302" y="483" type="line"/>
+      <point x="369" y="483" type="line"/>
+      <point x="369" y="556" type="line"/>
+      <point x="34" y="556" type="line"/>
+      <point x="34" y="483" type="line"/>
+      <point x="102" y="483" type="line"/>
+      <point x="102" y="73" type="line"/>
+      <point x="34" y="73" type="line"/>
+    </contour>
+    <contour>
+      <point x="38" y="748" type="line"/>
+      <point x="50" y="664"/>
+      <point x="102" y="600"/>
+      <point x="202" y="600" type="curve"/>
+      <point x="302" y="600"/>
+      <point x="354" y="664"/>
+      <point x="366" y="748" type="curve"/>
+      <point x="294" y="760" type="line"/>
+      <point x="282" y="720"/>
+      <point x="254" y="696"/>
+      <point x="202" y="696" type="curve"/>
+      <point x="150" y="696"/>
+      <point x="121" y="720"/>
+      <point x="110" y="760" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 73</string>
+              <string>hstem 483 73</string>
+              <string>hstem 600 96</string>
+              <string>vstem 102 200</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>03cd08a2c98af11d222e45d0af1cdf147341ae60dac81621edfeb1bc054f18a5e86b12013f6ef5c57befccb33da04e68060ff9687f1dee5c651519d795378532</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

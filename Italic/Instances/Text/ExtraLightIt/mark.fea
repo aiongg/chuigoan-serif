@@ -17,11 +17,11 @@ lookup MARK_BASE_above {
 	@bGC_I_above = [ I Iukran ];
 	@bGC_L_above = [ L Lcaron ];
 	@bGC_P_above = [ P Er ];
-	@bGC_U_above = [ U Uogonek Uhorn ];
+	@bGC_U_above = [ U Udieresisbelow Uogonek Uhorn ];
 	@bGC_Y_above = [ Y Ustraight Ustraightstroke ];
 	@bGC_a_above = [ a alphalatin gscript acyr yu ];
 	@bGC_b_above = [ b h ];
-	@bGC_c_above = [ c e u eogonek uogonek uhorn rho upsilon ie icyr es tse ieukran ];
+	@bGC_c_above = [ c e u udieresisbelow eogonek uogonek uhorn rho upsilon ie icyr es tse ieukran ];
 	@bGC_d_above = [ d dcaron ];
 	@bGC_i_above = [ i j iukran ];
 	@bGC_k_above = [ k l lcaron ];

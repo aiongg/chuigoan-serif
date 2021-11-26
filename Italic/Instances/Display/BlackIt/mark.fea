@@ -19,7 +19,7 @@ lookup MARK_BASE_above {
 	@bGC_O_above = [ O Q Ohorn Ocyr Fita Obarcyr ];
 	@bGC_P_above = [ P Er ];
 	@bGC_R_above = [ R Z ];
-	@bGC_U_above = [ U Uogonek Uhorn ];
+	@bGC_U_above = [ U Udieresisbelow Uogonek Uhorn ];
 	@bGC_Y_above = [ Y Ucyr Ustraight Ustraightstroke ];
 	@bGC_a_above = [ a aogonek alphalatin acyr ];
 	@bGC_c_above = [ c es ieukran ];
@@ -28,7 +28,7 @@ lookup MARK_BASE_above {
 	@bGC_i_above = [ i iukran ];
 	@bGC_l_above = [ l lcaron ];
 	@bGC_t_above = [ t tcaron ];
-	@bGC_u_above = [ u uhorn icyr tse ];
+	@bGC_u_above = [ u udieresisbelow uhorn icyr tse ];
 	@bGC_epsilon_above = [ epsilon ecyr ];
 	@bGC_eta_above = [ eta hard ];
 	@bGC_Icyr_above = [ Icyr Icyr.bgr ];

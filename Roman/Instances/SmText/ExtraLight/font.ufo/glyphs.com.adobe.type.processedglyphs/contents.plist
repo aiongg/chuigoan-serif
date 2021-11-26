@@ -468,6 +468,10 @@
     <string>I_acute.glif</string>
     <key>Iacute.sc</key>
     <string>I_acute.sc.glif</string>
+    <key>Ibreve</key>
+    <string>I_breve.glif</string>
+    <key>Ibreve.sc</key>
+    <string>I_breve.sc.glif</string>
     <key>Icaron</key>
     <string>I_caron.glif</string>
     <key>Icaron.sc</key>
@@ -1110,6 +1114,10 @@
     <string>U_dieresisacute.glif</string>
     <key>Udieresisacute.sc</key>
     <string>U_dieresisacute.sc.glif</string>
+    <key>Udieresisbelow</key>
+    <string>U_dieresisbelow.glif</string>
+    <key>Udieresisbelow.sc</key>
+    <string>U_dieresisbelow.sc.glif</string>
     <key>Udieresiscaron</key>
     <string>U_dieresiscaron.glif</string>
     <key>Udieresiscaron.sc</key>
@@ -2070,6 +2078,8 @@
     <string>i.trk.glif</string>
     <key>iacute</key>
     <string>iacute.glif</string>
+    <key>ibreve</key>
+    <string>ibreve.glif</string>
     <key>icaron</key>
     <string>icaron.glif</string>
     <key>icircumflex</key>
@@ -2822,6 +2832,8 @@
     <string>udieresis.glif</string>
     <key>udieresisacute</key>
     <string>udieresisacute.glif</string>
+    <key>udieresisbelow</key>
+    <string>udieresisbelow.glif</string>
     <key>udieresiscaron</key>
     <string>udieresiscaron.glif</string>
     <key>udieresisgrave</key>

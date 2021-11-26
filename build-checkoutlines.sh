@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -e
 
@@ -22,7 +22,7 @@ function checkout_lines {
 	fi
 	echo "Running checkoutlinesufo ..."
     checkoutlinesufo -e \
-        -g verticallinecmb,verticallinecmb.cap,dotabovertcmb,dotabovertcmb.cap,overticalline,Overticalline,Overticalline.sc,odotabovert,Odotabovert,Odotabovert.sc,Odotabovertacute,odotabovertacute,Odotabovertacute.sc,Odotabovertgrave,odotabovertgrave,Odotabovertgrave.sc,Odotabovertcircumflex,odotabovertcircumflex,Odotabovertcircumflex.sc,Odotabovertmacron,odotabovertmacron,Odotabovertmacron.sc,Odotabovertbreve,odotabovertbreve,Odotabovertbreve.sc,Odotabovertverticalline,odotabovertverticalline,Odotabovertverticalline.sc,Odotabovertcaron,odotabovertcaron,Odotabovertcaron.sc,N.sups.sc \
+        -g Ibreve,ibreve,Ibreve.sc,Udieresisbelow,udieresisbelow,Udieresisbelow.sc,verticallinecmb,verticallinecmb.cap,dotabovertcmb,dotabovertcmb.cap,overticalline,Overticalline,Overticalline.sc,odotabovert,Odotabovert,Odotabovert.sc,Odotabovertacute,odotabovertacute,Odotabovertacute.sc,Odotabovertgrave,odotabovertgrave,Odotabovertgrave.sc,Odotabovertcircumflex,odotabovertcircumflex,Odotabovertcircumflex.sc,Odotabovertmacron,odotabovertmacron,Odotabovertmacron.sc,Odotabovertbreve,odotabovertbreve,Odotabovertbreve.sc,Odotabovertverticalline,odotabovertverticalline,Odotabovertverticalline.sc,Odotabovertcaron,odotabovertcaron,Odotabovertcaron.sc,N.sups.sc \
         $font_ufo
     echo "Running psautohint ..."
     psautohint $font_ufo

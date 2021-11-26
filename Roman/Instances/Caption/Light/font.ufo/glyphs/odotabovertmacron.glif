@@ -3,6 +3,6 @@
   <advance width="608"/>
   <outline>
     <component base="omacron"/>
-    <component base="dotabovertcmb" xOffset="559" yOffset="-91"/>
+    <component base="dotabovertcmb" xOffset="564" yOffset="-91"/>
   </outline>
 </glyph>

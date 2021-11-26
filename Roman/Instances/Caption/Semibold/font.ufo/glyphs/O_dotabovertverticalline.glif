@@ -3,6 +3,6 @@
   <advance width="779"/>
   <outline>
     <component base="Overticalline"/>
-    <component base="dotabovertcmb.cap" xOffset="692" yOffset="-75"/>
+    <component base="dotabovertcmb.cap" xOffset="694" yOffset="-75"/>
   </outline>
 </glyph>

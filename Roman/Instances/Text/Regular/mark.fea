@@ -13,7 +13,7 @@ markClass ogonekcmb <anchor 0 0> @MC_ogonek;
 
 lookup MARK_BASE_above {
 	@bGC_A_above = [ A E F Acyr Ie ];
-	@bGC_C_above = [ C U Uogonek Uhorn Es Tse ];
+	@bGC_C_above = [ C U Udieresisbelow Uogonek Uhorn Es Tse ];
 	@bGC_I_above = [ I Iukran ];
 	@bGC_K_above = [ K Ya ];
 	@bGC_L_above = [ L Lcaron ];
@@ -29,7 +29,7 @@ lookup MARK_BASE_above {
 	@bGC_m_above = [ m oe ];
 	@bGC_p_above = [ p er ];
 	@bGC_t_above = [ t tcaron ];
-	@bGC_u_above = [ u y uogonek uhorn ucyr icyr.bgr tse.bgr ];
+	@bGC_u_above = [ u udieresisbelow y uogonek uhorn ucyr icyr.bgr tse.bgr ];
 	@bGC_epsilon_above = [ epsilon ghe che che.bgr ];
 	@bGC_omicron_above = [ omicron koppa ];
 	@bGC_Icyr_above = [ Icyr Icyr.bgr ];
@@ -44,7 +44,7 @@ lookup MARK_BASE_above {
 	@bGC_L.sc_above = [ L.sc Lcaron.sc ];
 	@bGC_N.sc_above = [ N.sc Ka.sc ];
 	@bGC_O.sc_above = [ O.sc Q.sc Ohorn.sc Oslash.sc Ocyr.sc Fita.sc Obarcyr.sc ];
-	@bGC_U.sc_above = [ U.sc Uogonek.sc Uhorn.sc ];
+	@bGC_U.sc_above = [ U.sc Udieresisbelow.sc Uogonek.sc Uhorn.sc ];
 	@bGC_Y.sc_above = [ Y.sc Ustraight.sc Ustraightstroke.sc ];
 	@bGC_Icyr.sc_above = [ Icyr.sc Icyr.scbgr ];
 	pos base @bGC_A_above <anchor 331 690> mark @MC_above;

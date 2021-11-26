@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve" format="2">
+  <advance width="376"/>
+  <unicode hex="012D"/>
+  <outline>
+    <contour>
+      <point x="28" y="0" type="line" name="hintSet0000"/>
+      <point x="352" y="0" type="line"/>
+      <point x="352" y="76" type="line"/>
+      <point x="292" y="76" type="line"/>
+      <point x="292" y="516" type="line"/>
+      <point x="228" y="516" type="line"/>
+      <point x="24" y="456" type="line"/>
+      <point x="24" y="384" type="line"/>
+      <point x="88" y="384" type="line"/>
+      <point x="88" y="76" type="line"/>
+      <point x="28" y="76" type="line"/>
+    </contour>
+    <contour>
+      <point x="21" y="739" type="line"/>
+      <point x="33" y="647"/>
+      <point x="89" y="575"/>
+      <point x="193" y="575" type="curve"/>
+      <point x="297" y="575"/>
+      <point x="353" y="647"/>
+      <point x="365" y="739" type="curve"/>
+      <point x="293" y="751" type="line"/>
+      <point x="281" y="703"/>
+      <point x="249" y="671"/>
+      <point x="193" y="671" type="curve"/>
+      <point x="137" y="671"/>
+      <point x="105" y="703"/>
+      <point x="93" y="751" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 76</string>
+              <string>hstem 516 -20</string>
+              <string>hstem 575 96</string>
+              <string>vstem 88 204</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>c21c766ec8f63155b87dad00407799ce1a8d201fbaf6d09ad19aaf2c2aa93476171d9cb409b5090ac48b712aed1be9a5f3ddca9e0f7b8e5d538718857bd45559</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

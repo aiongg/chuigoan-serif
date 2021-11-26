@@ -1,9 +1,13 @@
 # POJ Modifications
 
-To fully support Pe̍h-ōe-jī, horizontal advance after any letters containing the glyph `uni0358` (dot above right, called`dotabovert` in this script) must be extended. Contextual kerning does not seem to work in the browser, so we have added separate precomposed characters for all possibilities. We have also added `uni030D` (`verticallinecmb`), plus a precomposed `o + 030D + 0358` to ensure correct horizontal advance for this letter. Finally, we added the `N.sups.sc` glyph to support proper small caps in Pe̍h-ōe-jī. The total set of new glyphs is:
+To fully support Pe̍h-ōe-jī, horizontal advance after any letters containing the glyph `uni0358` (dot above right, called`dotabovert` in this script) must be extended. Contextual kerning does not seem to work in the browser, so we have added separate precomposed characters for all possibilities. We have also added `uni030D` (`verticallinecmb`), plus a precomposed `o + 030D + 0358` to ensure correct horizontal advance for this letter. Ibreve and Udieresisbelow are not currently included in Source Serif, and while they can be produced with combining marks we have included separate glyphs for best results. Finally, we added the `N.sups.sc` glyph to support proper small caps in Pe̍h-ōe-jī. The total set of new glyphs is:
 
 ```
 # Roman & Italic
+Ibreve Ibreve
+ibreve ibreve
+uni1E72 Udieresisbelow
+uni1E73 udieresisbelow
 uni030D verticallinecmb
 uni030D.cap verticallinecmb.cap
 uni0358 dotabovertcmb
@@ -27,6 +31,8 @@ uni01D20358 odotabovertcaron
 uni006F030D0358 odotabovertverticalline
 
 # Roman only
+Ibreve.sc Ibreve.sc
+uni1E72.sc Udieresisbelow.sc
 uni004F030D.sc Overticalline.sc
 uni004F0358.sc Odotabovert.sc
 uni00D20358.sc Odotabovertgrave.sc

@@ -60,6 +60,12 @@ OAccentList = [
 ]
 
 AddedGlyphList = [
+    ('Ibreve', GlyphObject(unicodes=0x012C), 'Ibreve'),
+    ('ibreve', GlyphObject(unicodes=0x012D), 'ibreve'),
+    ('Ibreve.sc', None, 'Ibreve.sc'),
+    ('Udieresisbelow', GlyphObject(unicodes=0x1E72), 'Udieresisbelow'),
+    ('udieresisbelow', GlyphObject(unicodes=0x1E73), 'udieresisbelow'),
+    ('Udieresisbelow.sc', None, 'Udieresisbelow.sc'),
     ('verticallinecmb', GlyphObject(unicodes=0x030D), 'uni030D'),
     ('verticallinecmb.cap', None, 'uni030D.cap'),
     ('dotabovertcmb', GlyphObject(unicodes=0x0358), 'uni0358'),
@@ -233,6 +239,8 @@ class POJBuilder:
         print('building...', end=' ', flush=True)
 
         self.addGlyphs()
+        self.build_ibreve()
+        self.build_udieresisbelow()
         self.build_verticalline()
         self.build_dotabovert()
         self.build_overticalline()
@@ -394,6 +402,18 @@ class POJBuilder:
         if self.slant == ROM:
             self.buildAccentedGlyphFromRef('Overticalline.sc', 'O.sc', 'verticallinecmb.cap', 'Ocaron.sc', 'caroncmb.cap')
 
+    def build_ibreve(self):
+        self.buildAccentedGlyphFromRef('ibreve', 'dotlessi', 'brevecmb', 'imacron', 'macroncmb')
+        self.buildAccentedGlyphFromRef('Ibreve', 'I', 'brevecmb.cap', 'Imacron', 'macroncmb.cap')
+        if self.slant == ROM:
+            self.buildAccentedGlyphFromRef('Ibreve.sc', 'I.sc', 'brevecmb.cap', 'Imacron.sc', 'macroncmb.cap')
+
+    def build_udieresisbelow(self):
+        self.buildAccentedGlyphFromRef('udieresisbelow', 'u', 'dieresisbelowcmb', 'udotbelow', 'dotbelowcmb')
+        self.buildAccentedGlyphFromRef('Udieresisbelow', 'U', 'dieresisbelowcmb', 'Udotbelow', 'dotbelowcmb')
+        if self.slant == ROM:
+            self.buildAccentedGlyphFromRef('Udieresisbelow.sc', 'U.sc', 'dieresisbelowcmb', 'Udotbelow.sc', 'dotbelowcmb')
+
     def setWidth(self, glyph, width):
         glyphObj = self.getGlyphObj(glyph)
         glyphObj.width = width
@@ -500,8 +520,18 @@ def buildInstances():
 def buildMasters():
     for size in [ 'caption', 'text', 'display' ]:
         for weight in [ 'master_0', 'master_1', 'master_2' ]:
+            builder = POJBuilder(ROM, size, weight, master=True)
+            builder.build()
+
+    for size in [ 'caption', 'text', 'display' ]:
+        for weight in [ 'master_0', 'master_1', 'master_2' ]:
             builder = POJBuilder(ITA, size, weight, master=True)
             builder.build()
 
 buildInstances()
 buildMasters()
+
+# def buildTest():
+#     builder = POJBuilder(ROM, TXT, RG)
+#     builder.build()
+# buildTest()

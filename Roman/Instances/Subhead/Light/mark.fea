@@ -22,7 +22,7 @@ lookup MARK_BASE_above {
 	@bGC_O_above = [ O Q Ohorn Oslash Ocyr Fita Obarcyr ];
 	@bGC_P_above = [ P Er ];
 	@bGC_S_above = [ S Ze ];
-	@bGC_U_above = [ U Uogonek Uhorn ];
+	@bGC_U_above = [ U Udieresisbelow Uogonek Uhorn ];
 	@bGC_a_above = [ a aogonek acyr ];
 	@bGC_b_above = [ b k ];
 	@bGC_c_above = [ c es ];
@@ -34,7 +34,7 @@ lookup MARK_BASE_above {
 	@bGC_p_above = [ p er ];
 	@bGC_s_above = [ s ecyr ];
 	@bGC_t_above = [ t tcaron ];
-	@bGC_u_above = [ u uogonek uhorn ya icyr.bgr ];
+	@bGC_u_above = [ u udieresisbelow uogonek uhorn ya icyr.bgr ];
 	@bGC_v_above = [ v x ];
 	@bGC_y_above = [ y ucyr ];
 	@bGC_eta_above = [ eta tse.bgr ];
@@ -53,7 +53,7 @@ lookup MARK_BASE_above {
 	@bGC_N.sc_above = [ N.sc Ieukran.sc ];
 	@bGC_O.sc_above = [ O.sc Q.sc Ohorn.sc Oslash.sc Ocyr.sc Fita.sc Obarcyr.sc ];
 	@bGC_P.sc_above = [ P.sc Er.sc ];
-	@bGC_U.sc_above = [ U.sc Uogonek.sc Uhorn.sc ];
+	@bGC_U.sc_above = [ U.sc Udieresisbelow.sc Uogonek.sc Uhorn.sc ];
 	@bGC_V.sc_above = [ V.sc Ucyr.sc Che.sc ];
 	@bGC_X.sc_above = [ X.sc Schwa.sc ];
 	@bGC_Y.sc_above = [ Y.sc Ustraight.sc Ustraightstroke.sc ];

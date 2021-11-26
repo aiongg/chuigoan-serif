@@ -117,6 +117,7 @@ Iacute	Iacute
 Icircumflex	Icircumflex
 Idieresis	Idieresis
 Imacron	Imacron
+Ibreve Ibreve
 Idotaccent	Idotaccent
 Iogonek	Iogonek
 uni01CF	Icaron
@@ -209,6 +210,7 @@ uni01D7	Udieresisacute
 uni01D9	Udieresiscaron
 uni01DB	Udieresisgrave
 uni01D5	Udieresismacron
+uni1E72	Udieresisbelow
 uni1EE4	Udotbelow
 uni1EE6	Uhoi
 Uhorn	Uhorn
@@ -304,6 +306,7 @@ icircumflex	icircumflex
 idieresis	idieresis
 idieresis.narrow	idieresis.narrow
 imacron	imacron
+ibreve	ibreve
 iogonek	iogonek
 i.trk	i.trk
 uni01D0	icaron
@@ -402,6 +405,7 @@ uni01D8	udieresisacute
 uni01DA	udieresiscaron
 uni01DC	udieresisgrave
 uni01D6	udieresismacron
+uni1E73	udieresisbelow
 uni1EE5	udotbelow
 uni1EE7	uhoi
 uhorn	uhorn
@@ -1225,6 +1229,7 @@ Iacute.sc	Iacute.sc
 Icircumflex.sc	Icircumflex.sc
 Idieresis.sc	Idieresis.sc
 Imacron.sc	Imacron.sc
+Ibreve.sc	Ibreve.sc
 Idotaccent.sc	Idotaccent.sc
 Iogonek.sc	Iogonek.sc
 uni01CF.sc	Icaron.sc
@@ -1318,6 +1323,7 @@ uni01D7.sc	Udieresisacute.sc
 uni01D9.sc	Udieresiscaron.sc
 uni01DB.sc	Udieresisgrave.sc
 uni01D5.sc	Udieresismacron.sc
+uni1E72.sc	Udieresisbelow.sc
 uni1EE4.sc	Udotbelow.sc
 uni1EE6.sc	Uhoi.sc
 Uhorn.sc	Uhorn.sc

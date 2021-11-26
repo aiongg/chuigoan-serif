@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve" format="2">
+  <advance width="365"/>
+  <unicode hex="012D"/>
+  <outline>
+    <contour>
+      <point x="41" y="0" type="line" name="hintSet0000"/>
+      <point x="325" y="0" type="line"/>
+      <point x="325" y="65" type="line"/>
+      <point x="249" y="65" type="line"/>
+      <point x="249" y="511" type="line"/>
+      <point x="201" y="511" type="line"/>
+      <point x="37" y="464" type="line"/>
+      <point x="37" y="405" type="line" name="hintSet0007"/>
+      <point x="117" y="405" type="line"/>
+      <point x="117" y="65" type="line"/>
+      <point x="41" y="65" type="line"/>
+    </contour>
+    <contour>
+      <point x="23" y="740" type="line"/>
+      <point x="37" y="650"/>
+      <point x="88" y="586"/>
+      <point x="184" y="586" type="curve"/>
+      <point x="280" y="586"/>
+      <point x="331" y="650"/>
+      <point x="345" y="740" type="curve"/>
+      <point x="289" y="749" type="line"/>
+      <point x="275" y="696"/>
+      <point x="243" y="664"/>
+      <point x="184" y="664" type="curve"/>
+      <point x="125" y="664"/>
+      <point x="93" y="696"/>
+      <point x="79" y="749" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint.v2</key>
+      <dict>
+        <key>hintSetList</key>
+        <array>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 65</string>
+              <string>hstem 405 59</string>
+              <string>hstem 511 -20</string>
+              <string>hstem 586 78</string>
+              <string>vstem 117 132</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintSet0007</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 0 65</string>
+              <string>hstem 405 106</string>
+              <string>hstem 586 78</string>
+              <string>vstem 117 132</string>
+            </array>
+          </dict>
+        </array>
+        <key>id</key>
+        <string>14d65df0dd3643febd869d5baed5a506ddbdf03033de15e77ac2ca3c20802dfd869f6d6f93d276be8b45b6d8776059cdfe72044e537f2ea98a758405980f5484</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

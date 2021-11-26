@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udieresisbelow" format="2">
+  <advance width="649"/>
+  <unicode hex="1E73"/>
+  <outline>
+    <component base="u"/>
+    <component base="dieresisbelowcmb" xOffset="331"/>
+  </outline>
+</glyph>

@@ -47,18 +47,18 @@
       <point x="245" y="861" type="curve"/>
     </contour>
     <contour>
-      <point x="682" y="674" type="curve" name="hintSet0016"/>
-      <point x="700" y="674"/>
-      <point x="716" y="688"/>
-      <point x="716" y="707" type="curve"/>
-      <point x="716" y="727"/>
-      <point x="700" y="741"/>
-      <point x="682" y="741" type="curve"/>
-      <point x="664" y="741"/>
-      <point x="648" y="727"/>
-      <point x="648" y="707" type="curve"/>
-      <point x="648" y="688"/>
-      <point x="664" y="674"/>
+      <point x="668" y="674" type="curve" name="hintSet0016"/>
+      <point x="686" y="674"/>
+      <point x="702" y="688"/>
+      <point x="702" y="707" type="curve"/>
+      <point x="702" y="727"/>
+      <point x="686" y="741"/>
+      <point x="668" y="741" type="curve"/>
+      <point x="650" y="741"/>
+      <point x="634" y="727"/>
+      <point x="634" y="707" type="curve"/>
+      <point x="634" y="688"/>
+      <point x="650" y="674"/>
     </contour>
   </outline>
   <lib>
@@ -87,12 +87,12 @@
               <string>hstem -14 25</string>
               <string>hstem 674 67</string>
               <string>vstem 65 34</string>
-              <string>vstem 648 68</string>
+              <string>vstem 634 68</string>
             </array>
           </dict>
         </array>
         <key>id</key>
-        <string>b7a83eedb03ac734ce6595e269264ae687631e6b75a8f86124f3a08e86fe1575421638e9934e805ba617701083c0c6985173bf45d83eb21ce6387c378c4e8c2c</string>
+        <string>084eece021923cd7e233b4cd83ee59022a5cf608947da0400078ed494f2b6a89d707c664cfb477006937cbe826ad87b6701e27556e56c6879d33c999789f819d</string>
       </dict>
     </dict>
   </lib>
